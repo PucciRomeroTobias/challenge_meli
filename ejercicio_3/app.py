@@ -7,7 +7,7 @@ import pandas as pd
 
 @st.cache_resource
 def load_model():
-    with open('modelo_smote_calibrado.pkl', 'rb') as f:
+    with open('ejercicio_3/modelo_smote_calibrado.pkl', 'rb') as f:
         modelo = pickle.load(f)
         
     return modelo
