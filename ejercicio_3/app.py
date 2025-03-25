@@ -45,7 +45,7 @@ if st.button("Predecir"):
         st.error(f"Clasificación: {clasificacion}")
     else:
         st.success(f"Clasificación: {clasificacion}")
-    st.info(f"Probabilidad: {probabilidad_falla:.8f}")
+    st.info(f"Probabilidad de falla: {probabilidad_falla:.8f}")
     
     # Gráfico de confianza
     st.progress(float(probabilidad_falla))
